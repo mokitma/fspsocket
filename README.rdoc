@@ -1,6 +1,8 @@
 = fspsocket
 
-Description goes here.
+FSPSocket is a library for socket-based communication between client/server programs
+over a file synchronization service, and is an acronym for 
+"File Synchronization-based Pseudo Socket."
 
 == Contributing to fspsocket
  
