@@ -8,7 +8,7 @@ Gem::Specification.new do |s|
   s.version = "0.0.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["mokit"]
+  s.authors = ["mokitma"]
   s.date = %q{2011-03-10}
   s.description = %q{FSPSocket is a module to enable socket-like communication over a file synchronization service, namely Dropbox}
   s.email = %q{mokitma@gmail.com}
@@ -24,7 +24,10 @@ Gem::Specification.new do |s|
     "README.rdoc",
     "Rakefile",
     "VERSION",
+    "fspsocket.gemspec",
     "lib/fspsocket.rb",
+    "sample/echocli.rb",
+    "sample/echoserv.rb",
     "spec/fspsocket_spec.rb",
     "spec/spec_helper.rb"
   ]
