@@ -1,8 +1,9 @@
 = fspsocket
 
-FSPSocket is a library for socket-based communication between client/server programs
-over a file synchronization service, and is an acronym for 
-"File Synchronization-based Pseudo Socket."
+* FSPSocket is a library for socket-based communication between client/server programs
+over a file synchronization service.
+* It is an acronym for "File Synchronization-based Pseudo Socket."
+* You need to install Dropbox client before using this library.
 
 == Contributing to fspsocket
  
