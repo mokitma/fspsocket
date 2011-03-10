@@ -15,13 +15,15 @@ Jeweler::Tasks.new do |gem|
   gem.name = "fspsocket"
   gem.homepage = "http://github.com/mokitma/fspsocket"
   gem.license = "MIT"
-  gem.summary = %Q{TODO: one-line summary of your gem}
-  gem.description = %Q{TODO: longer description of your gem}
+  gem.summary = %Q{A pseudo socket library over a file synchronization service}
+  gem.description = %Q{FSPSocket is a module to enable socket-like communication over a file synchronization service, namely Dropbox}
   gem.email = "mokitma@gmail.com"
   gem.authors = ["mokit"]
   # Include your dependencies below. Runtime dependencies are required when using your gem,
   # and development dependencies are only needed for development (ie running rake tasks, tests, etc)
   #  gem.add_runtime_dependency 'jabber4r', '> 0.1'
+  gem.add_runtime_dependency 'filemonitor', '> 0.0.4'
+  gem.add_runtime_dependency 'json', '> 1.5.1'
   #  gem.add_development_dependency 'rspec', '> 1.2.3'
 end
 Jeweler::RubygemsDotOrgTasks.new
