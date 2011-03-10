@@ -1,3 +1,8 @@
+#!/usr/bin/env ruby
+#
+# Simple echo server
+#
+require 'rubygems'
 require 'fspsocket'
 
 trap('INT') {

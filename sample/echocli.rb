@@ -1,3 +1,8 @@
+#!/usr/bin/env ruby
+#
+# Simple echo client
+#
+require 'rubygems'
 require 'fspsocket'
 
 trap('INT') {
@@ -15,6 +20,11 @@ def send_line
   STDOUT.flush
   line = STDIN.gets
   $sock.puts(line)
+end
+
+if ARGV.length == 0
+  puts "Usage: #{$0} server_id"
+  exit 1
 end
 
 $sock = FSPSocket.open(ARGV[0]){|rh| 
