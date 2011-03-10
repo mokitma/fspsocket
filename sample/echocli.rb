@@ -10,11 +10,6 @@ trap('INT') {
   exit 
 }
 
-if ARGV.length == 0
-  puts "Usage: #{$0} server_id"
-  exit 1
-end
-
 def send_line
   print "> "
   STDOUT.flush
